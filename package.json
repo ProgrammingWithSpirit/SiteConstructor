@@ -1,0 +1,18 @@
+{
+  "name": "javascriptconstructor",
+  "version": "1.0.0",
+  "description": "javascript app",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Tatsiana Clifton",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
